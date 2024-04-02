@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"  />
+
+    <title>Cadastro de produtos</title>
+
+    <a href="produtos.html">Lista de desejos</a>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <section class="header">
+           <h1>Cadastro de Produto</h1>
+           <h2>(Cadastre um produto para adicionar em sua lista de desejo)</h2>  
+        </section>
+
+        <form id="form" class="form">
+
+            <div class="form-content">
+
+                <label for="product-name">Nome do produto</label>
+                <input
+                    type="text"
+                    id="product-name"
+                    placeholder="Digite o nome do produto..."
+                />
+                <a>Mensagem de Erro</a>
+
+            </div>
+
+            <div class="form-content">
+
+                <label for="product-price">Preco do produto</label>
+                <input
+                    type="number"
+                    id="product-price"
+                    placeholder="Digite o preco do produto..."
+                />
+                <a>Mensagem de Erro</a>
+
+            </div>
+
+            <div class="form-content">
+
+                <label for="product-url">Link do produto</label>
+                <input
+                    type="url"
+                    id="product-url"
+                    placeholder="Digite o url do produto..."
+                />
+                <a>Mensagem de Erro</a>
+
+            </div>
+
+            <button type="submit">Cadastrar produto</button>
+
+        </form>
+
+    </div>
+
+    <footer class="signature">
+        Feito por: João Victor Santiago Gonçalves
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

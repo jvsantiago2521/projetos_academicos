@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+}
+body{
+    background: #06011b;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(73, 52, 216);
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    background-color: rgb(73, 52, 216);
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: linear-gradient(120deg, #080023, #3700ff, #7853ff 100%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.header2{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+.form{
+    padding: 20px;
+}
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+    width: 100%;
+}
+.form-content label{
+    display: inline-block;
+    margin-block: 4px;
+}
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid rgb(217, 169, 246);
+}
+.form-content a{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    visibility: hidden;
+}
+.form button{
+    background-color: #ff0180a6;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.form-content.error input{
+    border-color: #ff3b25;
+}
+.form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+}
+a[href="produtos.html"] {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ff0180a6;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px
+}
+a[href="index.html"]{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ff0180a6;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px
+}
+a[onclick="clearProductList()"]{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ff0180a6;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul[id="product-list"]{
+    list-style: none;
+    padding: 0;
+}
+ul[id="product-list"] li {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+ul[id="product-list"] li strong{
+    color: rgb(251, 0, 255);
+}
+.signature {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
